@@ -1,0 +1,58 @@
+# Build outputs
+build/
+bin/
+obj/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled binaries and objects
+hidmux
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Debug symbols / profiling
+*.dSYM/
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local environment/config
+.env
+.env.*
+*.local
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated USB/HID test captures or dumps
+*.pcap
+*.pcapng
+*.dump
+*.bin
+
+# Local test scripts or scratch files
+scratch/
+tmp/
