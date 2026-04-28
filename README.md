@@ -5,7 +5,7 @@ HIDMux is a Linux USB gadget input bridge that forwards physical HID input to a 
 It was built and tested with:
 
 * **Physical mouse:** Logitech G Pro X Superlight 2
-* **Gadget device:** Raspberry Pi running Raspberry Pi OS Lite 64-bit
+* **Gadget device:** Raspberry Pi 4 running Raspberry Pi OS Lite 64-bit
 * **Host system:** Windows 11
 
 The Raspberry Pi appears to the host as a USB HID mouse and keyboard. The bridge reads physical HID input from the Pi, writes virtual HID reports to Linux USB gadget devices, and can merge UDP mouse movement/button packets into the virtual mouse output.
